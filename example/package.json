@@ -1,0 +1,17 @@
+{
+  "name": "example",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "/bin/rm -f reporter.log && parcel build src/index.js && cat reporter.log",
+    "watch": "/bin/rm -f reporter.log && parcel watch src/index.js && cat reporter.log",
+    "serve": "/bin/rm -f reporter.log && parcel serve src/index.js && cat reporter.log"
+  },
+  "author": "mmktomato",
+  "license": "PUBLIC DOMAIN",
+  "devDependencies": {
+    "parcel": "2.0.0-nightly.646",
+    "parcel-reporter-test": "file:.."
+  }
+}

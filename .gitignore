@@ -1,0 +1,5 @@
+node_modules/
+example/reporter.log
+example/index.js
+example/index.js.map
+example/.parcel-cache/
